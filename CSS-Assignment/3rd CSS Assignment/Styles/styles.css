@@ -1,0 +1,67 @@
+.body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background: #c6bae9;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.carde {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(75, 72, 72, 0.1);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-color: #c6bae9;
+}
+
+.text {
+  color: black;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 16px;
+  background: #ffc8;
+  box-shadow: 2px 4px 0 rgba(20, 20, 20, 0.1);
+  font-weight: 700;
+  padding: 4px 12px;
+  z-index: 2;
+  border-radius: 4px;
+}
+
+.image-box{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: lightgray;
+    padding: 16px;
+}
+
+.product-image{
+    height: auto;
+    object-fit: contain;
+}
+
+.carde-content{
+    padding: 16px;
+    text-emphasis: left;
+}
+
+.product-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+
+.product-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color:black;
+}
+

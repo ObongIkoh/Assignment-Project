@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F6FBF9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.left-section {
+    flex: 1;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 460px;
+    height: 400px;
+    top: 205px;
+    left: 140px;
+}
+
+.logo {
+    width: 80%;
+    margin-bottom: 20px;
+   box-shadow: #0000001A; 
+}
+.h1{
+    width: 268px;
+    height: 50px;
+    top: 335px;
+    left: 140px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+}
+
+.P1{
+    width: 460px;
+    height: 75px;
+    top: 405px;
+    left: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.4px;
+    color: #737373;
+}
+
+/*form-section*/
+.form-section {
+    flex: 1;
+    padding: 40px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 679px;
+    top: 81px;
+    left: 720px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+.signup-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333333;
+}
+
+input::placeholder, select {
+    color: #999999;
+}
+
+button {
+    width: 500px;
+    height: 48px;
+    padding: 12px;
+    top: 631px;
+    left: 760px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #24C6A3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button.register-btn:hover {
+    background: #1BA888;
+}
+
+.terms {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+    font-family: "Sofia pro" sans-serif;
+    font-weight: 400;
+    left: 778px;
+    top: 695px;
+    height: 25px;
+    width: 463px;
+}
+
+.terms a {
+    color: #24C6A3;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}

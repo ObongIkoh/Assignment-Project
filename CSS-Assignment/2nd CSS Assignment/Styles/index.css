@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    background: #ffffff;
+  }
+  
+  /* Header Section */
+  @media (max-width: 1024px) {
+    .header {
+        width: 100%;
+        padding: 64px 32px;
+        height: auto;
+        text-align: left;
+    }
+  }
+  .header {
+    width: 1280px;
+    height: 382px;
+    border-bottom: 8px solid #999999;
+    padding: 96px 0 0 264px;
+    background: #ffffff;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    margin: 0 0 16px 0;
+    color: #000000;
+  }
+  
+  .subtext {
+    width: 415px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+  }
+  
+  .subtext .highlight {
+    color: #00a651; /* Green for 'passion' and 'logistics' */
+    font-weight: 800;
+  }
+
+  
+  
+  .tagline {
+    width: 415px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  /* Content Section */
+  .content {
+    background: #444444;
+    padding: 32px 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-box {
+    width: 90%;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    position: relative;
+  }
+  
+  .content-header {
+    background: #ffc800; /* Yellow */
+    font-size: 20px;
+    font-weight: 800;
+    padding: 8px 16px;
+    border-radius: 4px;
+    position: absolute;
+    top: -16px;
+    left: 16px;
+  }
+  
+  .content-text {
+    font-size: 16px;
+    margin: 16px 0 0;
+    color: #444444;
+  }
