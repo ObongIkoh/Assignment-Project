@@ -74,7 +74,7 @@ body {
 	background: white;
 	border-radius: 8px;
 	box-shadow: 0px 5px 15px 0px #0000000D;
-
+	margin: auto;
 	overflow: hidden;
 }
 
@@ -129,6 +129,7 @@ label {
 .form-item {
 	display: grid;
 	gap: 10px;
+	width: 100%;
 }
 .form-row {
 	display: grid;
@@ -154,7 +155,7 @@ input[type=email] {
 	max-width: 390px;
 }
 .payment-row {
-	display: grid;
+	display: flex;
 	grid-template-columns: 2fr .5fr .3fr;
 	background-color: #EDEFF2;
 	border-radius: 5px;
@@ -338,4 +339,45 @@ b {
 .footer a {
 	text-decoration: none;
 	color: #007bff;
+}
+/* mobile compatibility */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* for smaller screens */
+@media (max-width: 768px) {
+    .checkout-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkout-form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .checkout-summary {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*payent row */
+@media (max-width: 600px) {
+    .payment-row {
+        flex-direction: column;
+    }
+
+    .payment-row input {
+        width: 100%;
+    }
 }
