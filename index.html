@@ -32,17 +32,37 @@
         }
         .links a {
           text-decoration: none;
+          text-align: center;
           padding: 10px 20px;
           background: rgba(255, 255, 255, 0.2);
           border: 1px solid white;
           color: white;
           border-radius: 5px;
+          min-width: 120px;
           transition: background 0.3s;
         }
         .links a:hover {
           background: rgba(255, 255, 255, 0.5);
         }
-      </style>
+/* Media Query */
+        @media (max-width: 768px) {
+          .container h1 {
+            font-size: 2rem;
+          }
+          .container p {
+            font-size: 1rem;
+          }
+          .links {
+            flex-direction: column;
+            gap: 5px;
+          }
+          .links a{
+            display: block;
+            padding: 8px;
+            font-size: 14px;
+          }
+        }
+      </style>    
 </head>
 <body>
     <div class="container">
@@ -53,7 +73,7 @@
         <p>Below are the links to my Assignment</p>
         <br> <br> <br>
         <div class="links">
-            <a href ="CSS-Assignment/1st CSS  Assignment Tryout/indvbex.html"></a>Assignment 1</a>
+            <a href ="CSS-Assignment/1st CSS  Assignment Tryout/indvbex.html"> Assignment 1</a>
             <a href ="CSS-Assignment/2nd CSS Assignment/indexcx.html">Assignment 2</a>
             <a href="CSS-Assignment/3rd CSS Assignment/indexxx.html">Assignment 3</a>
             <a href= "CSS-Assignment/4th CSS Assignment/inddeex.html"> Assignment 4 </a>
