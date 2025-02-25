@@ -9,10 +9,9 @@ body {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     background-color: #f9f9f9;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     color: #333;
 }
 
@@ -108,4 +107,92 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f4f9ff;
+    margin-top: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*media queries*/
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+        width: 95%;
+    }
+
+    .info-section {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .info-section .illustration {
+        width: 100%;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .form-group input,
+    .form-group select {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .form-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
 }
